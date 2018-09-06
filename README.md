@@ -12,3 +12,5 @@ To use this, you need to add following option in /etc/docker/daemon.json:
 Option above will tell docker not to manipulate iptables anyhow.
 
 Rules set contains NAT options, so docker containers can access internet.
+
+Please note: in case of my example, host interface connected to network is eth0, it may be different on your system.
