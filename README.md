@@ -8,3 +8,7 @@ To use this, you need to add following option in /etc/docker/daemon.json:
 ```
 {"iptables": false}
 ```
+
+Option above will tell docker not to manipulate iptables anyhow.
+
+Rules set contains NAT options, so docker containers can access internet.
