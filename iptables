@@ -32,6 +32,6 @@ COMMIT
 # Incoming
 -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
 
-[FIREWALL RULES HERE]
+>>>>>>>>>>> [FIREWALL RULES HERE] <<<<<<<<<<<
 
 COMMIT
